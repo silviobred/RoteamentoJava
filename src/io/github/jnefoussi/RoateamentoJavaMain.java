@@ -10,7 +10,11 @@ public class RoateamentoJavaMain {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        Graph g = new Graph();
+        g.printNodes();
+        g.printEdges();
+
     }
-    
+
 }

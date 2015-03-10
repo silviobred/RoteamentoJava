@@ -6,26 +6,26 @@ package io.github.jnefoussi;
  */
 public class Node {
     
-    private char nome;
+    private char name;
     private int peso;
     
-    public Node (char nome) {
-        this.nome = nome;
+    public Node (char name) {
+        this.name = name;
         
     }
 
     /**
-     * @return the nome
+     * @return the name
      */
-    public char getNome() {
-        return nome;
+    public char getName() {
+        return name;
     }
 
     /**
-     * @param nome the nome to set
+     * @param name the name to set
      */
-    public void setNome(char nome) {
-        this.nome = nome;
+    public void setName(char name) {
+        this.name = name;
     }
 
     /**
